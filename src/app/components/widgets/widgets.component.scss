@@ -1,0 +1,12 @@
+.widgets {
+    margin: 0 3rem 0 3rem;
+    width: calc(100vw - 6rem - 16px);
+    height: calc(100vh - 108px);
+    display: inline-flex;
+    justify-content: center;
+
+    .table, .chart {
+        width: 100%;
+        height: 99%;
+    }
+}
