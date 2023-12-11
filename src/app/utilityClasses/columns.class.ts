@@ -1,6 +1,8 @@
 export interface Col {
     colName: string;
     width: string;
+    bgColor?: string;
+    color?: string;
 }
 
 export const COLUMNS: Col[] = [
@@ -28,6 +30,10 @@ export class TableColumns implements TableColumnsInterface {
 
     constructor() {
         this.cols = COLUMNS;
+        this.cols.forEach(col => {
+            col.bgColor = "#fff";
+            col.color = "#000";
+        });
     }
 
     getColumnsList(): string[] {

@@ -6,29 +6,29 @@ export interface Row {
 
 export const DEMO_DATA: Row[] = [
     {
-        category: "test",
-        value: "test",
-        timestamp: "test"
+        category: "FOOD",
+        value: "1200",
+        timestamp: "1702318474"
     },
     {
-        category: "test",
-        value: "test",
-        timestamp: "test"
+        category: "GAS",
+        value: "900",
+        timestamp: "1702318476"
     },
     {
-        category: "test",
-        value: "test",
-        timestamp: "test"
+        category: "CLOTHING",
+        value: "400",
+        timestamp: "1702318479"
     },
     {
-        category: "test",
-        value: "test",
-        timestamp: "test"
+        category: "GIFTS",
+        value: "500",
+        timestamp: "1702318482"
     },
     {
-        category: "test",
-        value: "test",
-        timestamp: "test"
+        category: "OTHERS",
+        value: "250",
+        timestamp: "1702318485"
     }
 ];
 

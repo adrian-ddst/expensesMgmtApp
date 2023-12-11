@@ -1,6 +1,7 @@
 <table class="table">
     <thead class="table-head">
-    <td *ngFor="let col of tableColumns.cols">
+    <td *ngFor="let col of tableColumns.cols" [ngStyle]="{'width': col.width}"
+        [style.background-color]="col.bgColor" [style.color]="col.color" (click)="selectTableHeadColumn(col)">
         {{ col.colName }}
     </td>
     </thead>

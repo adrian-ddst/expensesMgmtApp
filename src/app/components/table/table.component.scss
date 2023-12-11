@@ -1,0 +1,16 @@
+.table {
+    width: 100%;
+}
+
+.table-head > td {
+    padding: 0.5rem;
+    border-bottom: 2px solid #7a7a7a;
+    cursor: pointer;
+}
+
+.table-body > tr > td {
+    padding: 5px;
+    border-bottom: 1px solid #7a7a7a;
+    border-left: 1px solid #7a7a7a;
+    border-right: 1px solid #7a7a7a;
+}
